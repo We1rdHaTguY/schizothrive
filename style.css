@@ -108,7 +108,7 @@
       }
         
       img {
-        max-width: 600px;
+        object-fit: contain;
       }
         
       h1 {
