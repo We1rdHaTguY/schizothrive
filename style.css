@@ -53,6 +53,8 @@
     }
 
     img {
+      object-fit: contain;
+      aspect-ratio: 3 / 2;
       border-left: 1px solid #000000;
       border-right: 1px solid #000000;
       border-bottom: 1px solid #000000;
@@ -105,11 +107,6 @@
     @media (max-width: 600px) {
       body {
         padding: 2vw;
-      }
-        
-      img {
-        object-fit: contain;
-        aspect-ratio: 3 / 2;
       }
         
       h1 {
