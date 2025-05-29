@@ -109,6 +109,7 @@
         
       img {
         object-fit: contain;
+        aspect-ratio: 3 / 2;
       }
         
       h1 {
