@@ -107,6 +107,7 @@
 
     @media (max-width: 600px) {
       body {
+        font-size: 2vw;
         padding: 2vw;
       }
 
