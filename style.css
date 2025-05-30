@@ -11,7 +11,7 @@
       font-size: 2.0rem;
       max-width: 850px;
       margin: 0 auto;
-      background-color: #F5F1F7;
+      background-color: #F0E5FB;
       border-top-left-radius: 20px;
       border-top-right-radius: 20px;
       border-left: 1px solid #000000;
@@ -58,6 +58,11 @@
       background-color: #64B4FA;
       border-top-left-radius: 10px;
       border-top-right-radius: 10px;
+      border-top: 1px solid;
+      border-right: 1px solid;
+      border-left: 1px solid;
+      border-bottom: 1px solid;
+      border-color: #000000;
       font-size: 1.5rem;
       text-align: center;
       padding-left: 0.5rem;
@@ -75,9 +80,9 @@
       width: 73px;
       background-color: #DBF1F2;
       border-top: 3px solid;
-      border-bottom: 3px solid;
       border-left: 3px solid;
       border-right: 3px solid;
+      border-bottom: none;
       border-top-left-radius: 10px;
       border-top-right-radius: 10px;
       margin-top: auto;
