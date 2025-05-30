@@ -1,6 +1,4 @@
-/* © Copyrights Reserved by Jeffrey Santora 2025 */
-
-body {
+    body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       display: block;
       padding: 1.5rem;
@@ -70,7 +68,7 @@ body {
       padding-left: 0.5rem;
       padding-right: 0.5rem;
       padding-top: 0.5rem;
-      padding-bottom: 0.3rem;
+      padding-bottom: 0.1rem;
       color: #E2EAF4;
       text-decoration: none;
       transition: all 0.03s ease;
@@ -156,6 +154,11 @@ body {
 
     .center-text {
       text-align: center;
+    }
+
+    .align-items {
+      display: flex;
+      align-items: flex-end;
     }
 
     .text-size {
