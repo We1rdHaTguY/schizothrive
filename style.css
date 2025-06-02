@@ -16,9 +16,9 @@
       background-color: #F0E5FB;
       border-top-left-radius: 20px;
       border-top-right-radius: 20px;
-      border-left: 1px solid #000000;
-      border-right: 1px solid #000000;
-      border-top: 1px solid #000000;
+      border-left: 6px double #000000;
+      border-right: 6px double #000000;
+      border-top: 6px double #000000;
       box-shadow: 0 25px 20px rgba(0, 0, 0, 1.0);
       padding-top: 0.8rem;
       padding-bottom: 0.6rem;
@@ -118,8 +118,9 @@
       padding-right: 2.0rem;
       padding-left: 2.0rem;
       padding-bottom: 2.0rem;
-      border-left: 1px solid #000000;
-      border-right: 1px solid #000000;
+      border-top: 1px solid #000000;
+      border-left: 6px double #000000;
+      border-right: 6px double #000000;
     }
 
     footer {
@@ -131,8 +132,10 @@
       background-color: #2980b9;
       border-bottom-left-radius: 20px;
       border-bottom-right-radius: 20px;
-      border-left: 1px solid #000000;
-      border-right: 1px solid #000000;
+      border-left: 6px double #000000;
+      border-right: 6px double #000000;
+      border-bottom: 6px double #000000;
+      border-top: 1px solid #000000;
       box-shadow: 0 25px 20px rgba(0, 0, 0, 1.0);
       padding-top: 0.8rem;
       padding-bottom: 0.6rem;
@@ -170,8 +173,8 @@
     .navigation-bar {
       max-width: 850px;
       margin: 0 auto;
-      border-left: 1px solid #000000;
-      border-right: 1px solid #000000;
+      border-left: 6px double #000000;
+      border-right: 6px double #000000;
       box-shadow: 0 25px 20px rgba(0, 0, 0, 1.0);
       background-color: #F0E5FB;
       display: flex;
