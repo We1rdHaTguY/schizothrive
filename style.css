@@ -57,7 +57,7 @@
       font-size: 1.05rem;
     }
 
-    a {
+    a.navlinks {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -68,7 +68,6 @@
       border-top: 1px solid;
       border-right: 1px solid;
       border-left: 1px solid;
-      border-bottom: 1px solid;
       border-color: #000000;
       font-size: 22px;
       text-align: center;
@@ -288,8 +287,6 @@
       }
 
       .navigation-bar {
-        border-top: 1px solid #F0E5FB;
-        border-bottom: 1px solid #DBF1F2;
         padding-right: 1.4rem;
         padding-left: 1.4rem;
       }
