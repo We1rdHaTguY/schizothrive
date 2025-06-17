@@ -1,4 +1,4 @@
-/* all rights reserved © 2025 by We1rdHaTguY @ github.com/We1rdHaTguY/ */
+/* copyrights reserved © 2025 by We1rdHaTguY @ github.com/We1rdHaTguY/ */
 
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -104,8 +104,8 @@
       border-top-left-radius: 10px;
       border-top-right-radius: 10px;
       font-size: 22px;
-      padding-top: 0;
-      padding-bottom: 0.3rem;
+      padding-top: 1px;
+      padding-bottom: 0.2rem;
     }
 
     a.pagelinks {

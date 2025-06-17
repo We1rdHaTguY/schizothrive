@@ -22,27 +22,49 @@
      </div>
     </div>
     <div class="container">
-     <h3>
-      What's happenin'?
-     </h3>
+     <h2>Welcome!</h2>
+     <img src="practical-achievement.png" class="article-top-image" />
+     <h3>What's happenin'?</h3>
      <p>
-      Hey there,<br><br>
-      
-      You can call me <b><u>J Man</u></b>. I'm a diagnosed schizoaffective, bipolar, and major depressive with general anxiety disorder.
+      You can call me <b><u>J Man</u></b>. I'm a diagnosed schizoaffective, bipolar, and major depressive with general anxiety disorder (it's a mouthful, I know).
       I've visited a psychiatric facility seven times, six of those times against my will. I decided to create this blog as a way to express my creativity while bringing advice and inspiration to those who have suffered from similar afflictions with the hope that my story—and how I keep myself motivated to achieve—reaches those like me who need it most.
      </p>
+     <p>
+      <h3>My Articles:</h3>
+     </p>
      <div class="justify-center">
-      <div class="boxlinkmatrix">
-       <div class="boxlinks"><a href="your-mobile-toolbox.html"><b>Sustaining Motivation:<br>Your Mobile Toolbox</b></a></div>
-       <div class="boxlinks"><a href="chatgpt-vegetable-soup-recipe.html"><b>ChatGPT:<br>Simple Ten Dollar<br>Vegetable Soup Recipe</b></a></div>
-       <div class="boxlinks"><a href="life-is-a-lot-like-a-poker-game.html"><b>Life Is A Lot Like A Poker Game</b></a></div>
-       <div class="boxlinks"><a href="blog-homepage.html"><b>Homepage</b></a></div>
+      <div class="boxlinkmatrix" id="random-box-links">
       </div>
      </div>
     </div>
     <footer>
     </footer>
-    <script src="script.js">
+    <script>
+      const links = [
+        { href: "hive-minds.html", text: "Hive-Minds: Could We All Be Invisibly Connected?" },
+        { href: "your-mobile-toolbox.html", text: "Sustaining Motivation:<br>Your Mobile Toolbox" },
+        { href: "chatgpt-vegetable-soup-recipe.html", text: "ChatGPT:<br>Simple Ten Dollar<br>Vegetable Soup Recipe" },
+        { href: "life-is-a-lot-like-a-poker-game.html", text: "Life Is A Lot Like A Poker Game" },
+        { href: "superstitions-and-the-paranormal.html", text: "How Superstitions And The Paranormal Manifest" },
+      ];
+
+      function shuffle(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+      }
+
+      const shuffledLinks = shuffle([...links]).slice(0, 5);
+      const container = document.getElementById("random-box-links");
+
+      shuffledLinks.forEach(link => {
+        const div = document.createElement("div");
+        div.className = "boxlinks";
+        div.innerHTML = `<a href="${link.href}"><b>${link.text}</b></a>`;
+        container.appendChild(div);
+      });
     </script>
    </body>
 </html>
